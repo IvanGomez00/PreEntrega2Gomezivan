@@ -61,10 +61,23 @@ div.botones a{
 text-decoration: none;
 }
 
+/* ------  PORTAFOLIO  ------- */
 
 
+.main-porfolio h2{
+    padding: 10px;
+    margin:40px;
+    text-align: center;
+}
 
-/* ------CONTACTO------- */
+.porfolio{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* ------  CONTACTO  ------- */
 
 body.contacto{
 background: #414141;
