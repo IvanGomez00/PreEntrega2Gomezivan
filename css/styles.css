@@ -22,8 +22,16 @@ body h4 {
 
 /* ------INDEX------ */
 body.index {
-    background-image: url(../recursos/imagenes/hero.jpg);
+    background-image: url(../recursos/imagenes/hero3.jpg);
     background-attachment: fixed;
+    
+}
+
+.index p{
+    color: white;
+    text-align: center;
+
+    
 }
 
 body.index main.index {
@@ -44,12 +52,12 @@ div.botones button{
     border: none;
     padding: 15px;
     width: 150px;
-    background-color: #AF0404;
+    background-color: #068FFF;
 
 }
   .botones button:hover,
   .botones button:focus{
-    background: #3aa0e0 ;
+    background: #AF0404;
     color: black;
     transition: background-color 1s ease-out;
     outline: 0;
@@ -60,6 +68,50 @@ div.botones button{
 div.botones a{
 text-decoration: none;
 }
+/* ------  SERVICIOS ------- */
+
+.body-servicios {
+    background-image: url(../recursos/imagenes/hero.jpg);
+    background-attachment: fixed;
+    
+}
+
+.main-servicios{ 
+ 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: none;
+}
+
+.div-servicios{
+    background: #FF0000;
+    padding: 40px;
+}
+.main-servicios h2{
+    color: #3D0000 ;
+    padding: 5px;
+
+}
+
+.main-servicios p{
+    color: black ;
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------  PORTAFOLIO  ------- */
 
@@ -221,7 +273,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    background: rgba(15, 20, 23, 0.8);
+    background: rgba(49, 47, 47, 0.8);
 }
 
 .footer{
