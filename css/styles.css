@@ -106,13 +106,16 @@ text-decoration: none;
 
 /* ------    SOBRE MI  ------ */
 body.sobre-mi {
-    background: #301B3F;
+    background-image: url(../recursos/imagenes/hero5.jpg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
     
 }
 
 
-main p{
+.main-sobre-mi p{
     text-align: justify;
     color: white;
     font-size: 15px;
@@ -132,8 +135,13 @@ margin: auto;
 section.carrusel p{
   text-align: center;}
 
+main .texto{
+    padding: 35px;
+}
 
-
+main .texto p{
+   font-weight: 500;
+}
 
 
 
@@ -149,8 +157,32 @@ section.carrusel p{
 .porfolio{
     display: flex;
     flex-wrap: wrap;    
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 50px;
+}
+
+
+.main-porfolio p{
+    color: black;
+}
+
+.main-porfolio a{
+    margin-bottom: 10px;
+}
+
+div.app1,
+div.app2,
+div.app3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.app1 p,
+div.app2 p,
+div.app3 p{
+
+    text-align: justify;
 }
 
 /* ------  CONTACTO  ------- */
