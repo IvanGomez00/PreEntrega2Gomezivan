@@ -104,6 +104,7 @@ text-decoration: none;
 
 
 
+
 /* ------    SOBRE MI  ------ */
 body.sobre-mi {
     background-image: url(../recursos/imagenes/hero5.jpg);
@@ -150,7 +151,7 @@ main .texto p{
 
 .main-porfolio h2{
     padding: 10px;
-    margin:40px;
+    margin:25px;
     text-align: center;
 }
 
@@ -293,28 +294,6 @@ textarea{
 .contacto-info ul li{
     padding: 3px;
 }
-    /* MEDIA QUERY LARGE SCREEN CONTACTO */
-@media (min-width: 700px){
-
-main{
-    padding: 0 4rem;
-}
-
-.div-contacto{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
-.contacto-info h4,
-.contacto-info ul,
-.contacto-info p{
-    padding: 2em;
-    text-align: left;
-}
-
-
-
-}
 
 
 
@@ -343,3 +322,47 @@ footer {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
+
+
+    /* MEDIA QUERY LARGE SCREEN CONTACTO */
+    @media (min-width: 700px){
+
+        main{
+            padding: 0 4rem;
+        }
+        
+        .div-contacto{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+        
+        .contacto-info h4,
+        .contacto-info ul,
+        .contacto-info p{
+            padding: 2em;
+            text-align: left;
+        }
+        
+        
+        }
+
+
+        @media (max-width: 1015px){
+        
+            .card{
+                margin: 25px;
+            }
+          
+        }
+
+        @media(max-width: 750px){
+
+            .row{
+                flex-direction: column;
+            }
+
+            .main-servicios{
+                padding: 20px;
+            }
+
+        }
