@@ -27,6 +27,13 @@ body.index {
     
 }
 
+main .div-index{
+    background: #eedfdf5d;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
 .index p{
     color: white;
     text-align: center;
@@ -84,19 +91,20 @@ text-decoration: none;
 }
 
 .div-servicios{
-    background: #FF0000;
+    background: #ff0000b1;
     padding: 40px;
 }
 .main-servicios h2{
-    color: #3D0000 ;
-    padding: 5px;
+
+    color: white ;
+    padding: 10px 0;
 
 }
 
 .main-servicios p{
-    color: black ;
+    color: rgb(255, 255, 255) ;
     padding: 5px;
-
+text-align: justify;
 }
 
 
@@ -343,7 +351,7 @@ footer {
             text-align: left;
         }
         
-        
+        /* ----PORFOLIO */
         }
 
 
@@ -366,3 +374,8 @@ footer {
             }
 
         }
+
+        @media(max-width:484px){
+        
+       
+    }
